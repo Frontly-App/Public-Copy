@@ -382,7 +382,7 @@ const Landing = () => {
         <HeroText>Build custom software, fast.</HeroText>
         <HeroDescription>
           Create custom dashboards and internal tools for your business starting
-          with a single text prompt, and unlimited customization.
+          with a single text prompt.
         </HeroDescription>
         <HeroCTARow>
           <CTAButton
@@ -432,7 +432,7 @@ const Landing = () => {
           </WatchVideoContainer>
         </HeroCTARow>
       </HeroContent>
-      <HeroImage background="https://res.cloudinary.com/frontly/image/upload/v1673419641/frontly-shot-new_wid2t7.png">
+      <HeroImage background="https://res.cloudinary.com/frontly/image/upload/h_500/v1673419641/frontly-shot-new_wid2t7.png">
         <div>
           <HeroPlayButton
             onClick={() => {

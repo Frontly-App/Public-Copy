@@ -110,7 +110,7 @@ const BenefitText = styled.div`
 const blocks = [
   {
     reverse: false,
-    url: "https://res.cloudinary.com/frontly/image/upload/v1679800949/spreadsheet-icons_eseqsz.png",
+    url: "https://res.cloudinary.com/frontly/image/upload/h_500/v1679800949/spreadsheet-icons_eseqsz.png",
     title: "Turn your spreadsheets into business apps",
     height: "280px",
     description:
@@ -123,7 +123,7 @@ const blocks = [
   },
   {
     reverse: true,
-    url: "https://res.cloudinary.com/frontly/image/upload/v1678055979/blocks-graphic_vrgmop.png",
+    url: "https://res.cloudinary.com/frontly/image/upload/h_500/v1678055979/blocks-graphic_vrgmop.png",
     title: "Powerful building blocks with no code required",
     description:
       "With our pre-built blocks such as Tables, Lists, Forms, and Charts, you can effortlessly create a client portal in just a few minutes without any code. All you have to do is pick a block, choose a spreadsheet, and you're ready to go!",
@@ -135,7 +135,7 @@ const blocks = [
   },
   {
     reverse: false,
-    url: "https://res.cloudinary.com/frontly/image/upload/v1678047162/access-control-graphic_n1zedy.png",
+    url: "https://res.cloudinary.com/frontly/image/upload/h_500/v1678047162/access-control-graphic_n1zedy.png",
     title: "Define custom permissions and access levels",
     description:
       "Ensure that only the appropriate users have access to view and modify specific information from your application with granular permissions. All data is securely stored in your spreadsheet.",
