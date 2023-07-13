@@ -15,7 +15,7 @@ const IconWrapper = styled.div`
 `;
 
 const Icon = styled.img`
-  height: 20px;
+  height: 16px;
 `;
 
 const BlocksContainer = styled.div`
@@ -95,7 +95,7 @@ const BenefitsContainer = styled.div`
 const BenefitRow = styled.div`
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 7px;
 `;
 
 const BenefitText = styled.div`
