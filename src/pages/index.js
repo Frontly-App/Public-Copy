@@ -6,8 +6,15 @@ import React from "react";
 import arrowRight from "../images/arrow-right.svg";
 import { colors } from "../theme";
 import highFive from "../images/high-five.png";
+import mixpanel from "mixpanel-browser";
 import play from "../images/play.svg";
 import styled from "styled-components";
+
+mixpanel.init("24b88f3ea98cee756872d3abb2d7da40", {
+  debug: false,
+  persistence: "localStorage",
+});
+mixpanel.track("Landing Page View");
 
 const Text = styled.div`
   font-size: 14px;
@@ -326,12 +333,6 @@ const FeatureBlocksContent = styled(Content)`
 const Landing = () => {
   const navigate = (route) =>
     (window.location.href = `https://www.frontly.ai/${route}`);
-
-  // useEffect(() => {
-  //   if (isFrontlyAdmin && isMixpanelInitialized) {
-  //     mixpanel.track("Landing Page View");
-  //   }
-  // }, [isMixpanelInitialized]);
 
   const header = (
     <HeaderContainer>

@@ -3,8 +3,15 @@ import { Header } from "../landing/Header";
 import React from "react";
 import check from "../images/check.svg";
 import { colors } from "../theme";
+import mixpanel from "mixpanel-browser";
 import styled from "styled-components";
 import { useState } from "react";
+
+mixpanel.init("24b88f3ea98cee756872d3abb2d7da40", {
+  debug: false,
+  persistence: "localStorage",
+});
+mixpanel.track("Pricing Page View");
 
 const Button = styled.div`
   background: ${colors.primary};
