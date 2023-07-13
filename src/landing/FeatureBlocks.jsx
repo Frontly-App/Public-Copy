@@ -1,6 +1,6 @@
 import React from "react";
-import check from "../../images/check.svg";
-import { colors } from "../../theme";
+import check from "../images/check.svg";
+import { colors } from "../theme";
 import { get } from "lodash";
 import styled from "styled-components";
 

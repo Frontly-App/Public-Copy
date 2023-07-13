@@ -1,5 +1,5 @@
-import FAQ from "./landing/FAQ";
-import { Header } from "./landing/Header";
+import FAQ from "../landing/FAQ";
+import { Header } from "../landing/Header";
 import React from "react";
 import check from "../images/check.svg";
 import { colors } from "../theme";
@@ -124,15 +124,6 @@ const FAQContainer = styled.div`
   }
 `;
 
-export const Background = styled.div`
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  position: fixed;
-  overflow-y: auto;
-`;
-
 const Description = styled.div`
   font-size: 16px;
   font-weight: 400;
@@ -212,7 +203,7 @@ const HeroDescription = styled.div`
   margin-top: 10px;
 `;
 
-export const free = {
+const free = {
   name: "Setup",
   key: null,
   description: "Set up your app for free without publishing",
@@ -225,7 +216,7 @@ export const free = {
   features: ["Build Without Publishing", "No Time Limit"],
 };
 
-export const basic = {
+const basic = {
   name: "Basic",
   key: "basic",
   description: "For getting started with custom tooling",
@@ -245,7 +236,7 @@ export const basic = {
   ],
 };
 
-export const growth = {
+const growth = {
   name: "Growth",
   key: "growth",
   description: "For businesses scaling their operations",
@@ -267,7 +258,7 @@ export const growth = {
   ],
 };
 
-export const PlanExtras = () => (
+const PlanExtras = () => (
   <ExtrasContainer>
     <Name>Add-ons</Name>
     <div>
@@ -295,7 +286,7 @@ export const PlanExtras = () => (
   </ExtrasContainer>
 );
 
-export const PlansFAQ = () => {
+const PlansFAQ = () => {
   const questions = [
     {
       question: "What does the free Setup plan include?",
@@ -376,7 +367,7 @@ const Pricing = () => {
 
 export default Pricing;
 
-export const Plans = ({ plans, frequency, setFrequency }) => {
+const Plans = ({ plans, frequency, setFrequency }) => {
   return (
     <div
       style={{

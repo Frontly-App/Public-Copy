@@ -1,6 +1,6 @@
 import React from "react";
-import chevronDown from "../../images/chevron-down.svg";
-import { colors } from "../../theme";
+import chevronDown from "../images/chevron-down.svg";
+import { colors } from "../theme";
 import { get } from "lodash";
 import styled from "styled-components";
 import { useState } from "react";

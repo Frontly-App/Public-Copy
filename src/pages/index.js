@@ -1,7 +1,7 @@
 import "./styles.css";
 
-import FAQ from "./landing/FAQ";
-import FeatureBlocks from "./landing/FeatureBlocks";
+import FAQ from "../landing/FAQ";
+import FeatureBlocks from "../landing/FeatureBlocks";
 import React from "react";
 import arrowRight from "../images/arrow-right.svg";
 import { colors } from "../theme";
