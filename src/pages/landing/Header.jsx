@@ -68,7 +68,12 @@ export const Header = () => {
         />
       </HeaderLeft>
       <HeaderRight>
-        <HeaderLink hideMobile onClick={() => navigate("app_templates")}>
+        <HeaderLink
+          hideMobile
+          onClick={() =>
+            (window.location.href = "https://app.frontly.ai/app_templates")
+          }
+        >
           Templates
         </HeaderLink>
         <HeaderLink hideMobile onClick={() => navigate("pricing")}>

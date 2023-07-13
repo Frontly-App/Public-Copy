@@ -345,7 +345,9 @@ const Landing = () => {
       </HeaderLeft>
       <HeaderRight>
         <HeaderLink
-          onClick={() => navigate("https://app.frontly.ai/app_templates")}
+          onClick={() =>
+            (window.location.href = "https://app.frontly.ai/app_templates")
+          }
         >
           Templates
         </HeaderLink>
