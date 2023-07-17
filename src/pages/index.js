@@ -380,7 +380,7 @@ const Landing = () => {
   const hero = (
     <HeroContainer>
       <HeroContent>
-        <HeroText>Build custom software, fast.</HeroText>
+        <HeroText>All-in-one small business software.</HeroText>
         <HeroDescription>
           Create custom dashboards and internal tools for your business starting
           with a single text prompt.
