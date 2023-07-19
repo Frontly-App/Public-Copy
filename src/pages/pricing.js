@@ -1,3 +1,5 @@
+import "./styles.css";
+
 import FAQ from "../landing/FAQ";
 import { Header } from "../landing/Header";
 import React from "react";
@@ -298,12 +300,12 @@ const PlansFAQ = () => {
     {
       question: "What does the free Setup plan include?",
       answer:
-        "The free set up plan includes full access to all of Frontly's features with no time limit on the creation of the portal. Once you are ready to Publish your app (make it live for customers), you will need to select one of our paid plans, starting at $49/month.",
+        "The free set up plan includes full access to all of Frontly's features with no time limit on the creation of the portal. Once you are ready to Publish your app (make it live for customers), you will need to select one of our paid plans, starting at $19/month.",
     },
     {
       question: "What is an AI Token?",
       answer:
-        "AI Tokens are used to generate pages and spreadsheets based on your descriptions. Each individual usage of AI Generation consumes 2 tokens.",
+        "AI Tokens are used to generate pages and spreadsheets based on your descriptions. Each individual usage of AI Generation consumes 1 token.",
     },
     {
       question: "What is an Editor?",

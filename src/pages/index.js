@@ -393,8 +393,8 @@ const Landing = () => {
       <HeroContent>
         <HeroText>All-in-one small business software.</HeroText>
         <HeroDescription>
-          Create custom dashboards and internal tools for your business starting
-          with a single text prompt.
+          Build custom dashboards and internal tools for your business from an
+          AI text prompt.
         </HeroDescription>
         <HeroCTARow>
           <CTAButton
@@ -521,7 +521,7 @@ const Landing = () => {
             <CTATextContainer>
               <CTATextHeader>Ready to try?</CTATextHeader>
               <CTAText>
-                Build custom software <CTAColor>in minutes</CTAColor>
+                Build business tools <CTAColor>in minutes</CTAColor>
               </CTAText>
               <Row style={{ alignItems: "center", gap: "30px" }}>
                 <CTAButton
@@ -530,7 +530,7 @@ const Landing = () => {
                   }}
                   large
                 >
-                  Get started free
+                  {window.innerWidth < 800 ? "Start Free" : "Get started free"}
                 </CTAButton>
 
                 <RequestDemoRow
