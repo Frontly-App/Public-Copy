@@ -46,7 +46,7 @@ const HeaderLink = styled.div`
   color: white;
   cursor: pointer;
   @media (max-width: 1000px) {
-    display: none;
+    ${(p) => p.hideMobile && "display: none;"}
   }
 `;
 
@@ -274,6 +274,10 @@ const CTAButton = styled.div`
     background: #2356ae;
     color: white;
   }
+
+  @media (max-width: 1000px) {
+    ${(p) => p.hideMobile && "display: none;"}
+  }
 `;
 
 const HeroCTARow = styled.div`
@@ -346,14 +350,20 @@ const Landing = () => {
       </HeaderLeft>
       <HeaderRight>
         <HeaderLink
+          hideMobile
           onClick={() =>
             (window.location.href = "https://app.frontly.ai/app_templates")
           }
         >
           Templates
         </HeaderLink>
-        <HeaderLink onClick={() => navigate("pricing")}>Pricing</HeaderLink>
-        <HeaderLink onClick={() => window.open("https://help.frontly.ai")}>
+        <HeaderLink hideMobile onClick={() => navigate("pricing")}>
+          Pricing
+        </HeaderLink>
+        <HeaderLink
+          hideMobile
+          onClick={() => window.open("https://help.frontly.ai")}
+        >
           Help Center
         </HeaderLink>
         <HeaderLink
@@ -366,6 +376,7 @@ const Landing = () => {
           Login
         </HeaderLink>
         <CTAButton
+          hideMobile
           onClick={() => {
             // mixpanel.track("Signup Button Click");
             window.location.href = `https://app.frontly.ai/signup`;
@@ -392,7 +403,9 @@ const Landing = () => {
               window.location.href = `https://app.frontly.ai/signup`;
             }}
           >
-            <div>Get started free</div>
+            <div>
+              {window.innerWidth < 800 ? "Start Free" : "Get started free"}
+            </div>
             <Icon
               src={arrowRight}
               style={{ margin: "0 0 0 5px", cursor: "pointer" }}
