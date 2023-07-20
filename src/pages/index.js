@@ -414,7 +414,7 @@ const Landing = () => {
           <WatchVideoContainer
             onClick={() => {
               // mixpanel.track("Landing Page Video Click");
-              window.open("https://www.youtube.com/watch?v=v8nRyUTq2AQ");
+              window.open("https://www.youtube.com/watch?v=IYBJOXenAs0");
             }}
           >
             <WatchVideoPlayButton>
@@ -451,7 +451,7 @@ const Landing = () => {
           <HeroPlayButton
             onClick={() => {
               // mixpanel.track("Landing Page Video Click");
-              window.open("https://www.youtube.com/watch?v=v8nRyUTq2AQ");
+              window.open("https://www.youtube.com/watch?v=IYBJOXenAs0");
             }}
           >
             <Icon
