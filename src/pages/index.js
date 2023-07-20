@@ -403,9 +403,7 @@ const Landing = () => {
               window.location.href = `https://app.frontly.ai/signup`;
             }}
           >
-            <div>
-              {window.innerWidth < 800 ? "Start Free" : "Get started free"}
-            </div>
+            <div>Start Free</div>
             <Icon
               src={arrowRight}
               style={{ margin: "0 0 0 5px", cursor: "pointer" }}
@@ -530,7 +528,7 @@ const Landing = () => {
                   }}
                   large
                 >
-                  {window.innerWidth < 800 ? "Start Free" : "Get started free"}
+                  Start Free
                 </CTAButton>
 
                 <RequestDemoRow
