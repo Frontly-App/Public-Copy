@@ -391,10 +391,10 @@ const Landing = () => {
   const hero = (
     <HeroContainer>
       <HeroContent>
-        <HeroText>All-in-one small business software.</HeroText>
+        <HeroText>Turn spreadsheets into business tools</HeroText>
         <HeroDescription>
-          Build custom dashboards and internal tools for your business from an
-          AI text prompt.
+          Build analytics dashboards and internal tools for your business from
+          an AI text prompt.
         </HeroDescription>
         <HeroCTARow>
           <CTAButton
