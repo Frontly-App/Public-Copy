@@ -2,6 +2,7 @@ import "./styles.css";
 
 import FAQ from "../landing/FAQ";
 import FeatureBlocks from "../landing/FeatureBlocks";
+import Helmet from "react-helmet";
 import React from "react";
 import arrowRight from "../images/arrow-right.svg";
 import { colors } from "../theme";
@@ -497,6 +498,47 @@ const Landing = () => {
 
   return (
     <Container>
+      <Helmet>
+        <title>Frontly - Turn spreadsheets into business tools</title>
+        <meta
+          name="title"
+          content="Frontly - Turn spreadsheets into business tools"
+        />
+        <meta
+          name="description"
+          content="Turn your Google Sheets into modern dashboards and internal business tools in minutes."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://frontly.ai/" />
+        <meta
+          property="og:title"
+          content="Frontly - Turn spreadsheets into business tools"
+        />
+        <meta
+          property="og:description"
+          content="Turn your Google Sheets into modern dashboards and internal business tools in minutes."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/frontly/image/upload/v1690685949/frontly-meta_xzukoh.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://frontly.ai/" />
+        <meta
+          property="twitter:title"
+          content="Frontly - Turn spreadsheets into business tools"
+        />
+        <meta
+          property="twitter:description"
+          content="Turn your Google Sheets into modern dashboards and internal business tools in minutes."
+        />
+        <meta
+          property="twitter:image"
+          content="https://res.cloudinary.com/frontly/image/upload/v1690685949/frontly-meta_xzukoh.png"
+        />
+      </Helmet>
       <BlueContent>
         <Content>
           {header}
