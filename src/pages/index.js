@@ -168,7 +168,7 @@ const HeroDescription = styled.div`
   font-size: 22px;
   font-weight: 400;
   color: #939fb8;
-  width: 560px;
+  width: 530px;
   @media (max-width: 1000px) {
     font-size: 16px;
     text-align: center;
@@ -215,7 +215,7 @@ const CTAText = styled.div`
   font-weight: 700;
   color: white;
   margin: 5px 0 20px 0;
-  max-width: 500px;
+  max-width: 550px;
   @media (max-width: 1000px) {
     font-size: 28px;
     text-align: center;
@@ -392,10 +392,10 @@ const Landing = () => {
   const hero = (
     <HeroContainer>
       <HeroContent>
-        <HeroText>Turn spreadsheets into business tools</HeroText>
+        <HeroText>Supercharge your spreadsheets</HeroText>
         <HeroDescription>
-          Build analytics dashboards and internal tools for your business from
-          an AI text prompt.
+          Turn your Google Sheets into custom analytics dashboards and internal
+          business tools using AI.
         </HeroDescription>
         <HeroCTARow>
           <CTAButton
@@ -467,32 +467,28 @@ const Landing = () => {
     {
       question: "What exactly is Frontly?",
       answer:
-        "Frontly is a powerful software platform enabling users without any coding experience to build custom internal business tools that enable their team and clients to securely view and manage data without the need for a developer.",
+        "Frontly empowers business owners to turn their spreadsheets into custom analytics dashboards and internal business tools using the power of AI.",
     },
     {
-      question: "How does Frontly build apps with no code?",
+      question: "Who is Frontly for?",
       answer:
-        "We code so you don't have to. Frontly's team of experienced software developers have invested thousands of hours coding a platform that allows users to build apps without needing to understand or write software code. The 'No Code' movement is changing the way business users empower their teams and clients with custom software, without hiring expensive developers.",
+        "Frontly is for business owners who want to improve access to valuable insights based on their spreadsheet data ",
     },
     {
       question: "What kind of tools can be built with Frontly?",
       answer:
-        "Frontly is optimized for building client portals and internal tools that allow seamless workflows for your team and clients. For example, a dashboard where your customers can login to edit their work orders, or an inventory management dashboard for your internal team.",
+        "Frontly is designed for building analytics dashboards and client login portals, allowing seamless workflows for your team and clients. For example, an analytics dashboard for your team to track key metrics from your spreadsheet data, or a dashboard where your customers can login to edit their work orders.",
     },
     {
-      question: "Why use Frontly compared to off-the-shelf software?",
+      question:
+        "Why use Frontly instead of custom-coding or hiring a developer?",
       answer:
-        "Off-the-shelf software solves specific, common problems, but allows little customization. With Frontly, you can create completely custom apps enabling your clients and team to view and manage important data with a workflow that fits your unique use-case perfectly.",
+        "Custom app development isn't suitable for most small businesses. Frontly delivers the same value of custom-coding an internal dashboard, but at just a fraction of the cost and time.",
     },
     {
-      question: "Why use Frontly instead of hiring a developer?",
+      question: "How much time does it take?",
       answer:
-        "App development is expensive and time consuming if you have development resources at your disposal, and next to impossible if you don't. Frontly apps work perfectly for use cases when you can't justify custom development costs, you need something done quickly, or you want control over what you're building.",
-    },
-    {
-      question: "How quickly can I launch an app?",
-      answer:
-        "With our generative AI technology, you can create a basic app in about one minute, and continue refining it over time as you learn more about the software and your needs. Our team is happy to chat about your project to help you make the most efficient plans.",
+        "With our generative AI technology, you can create a basic dashboard in about one minute, and continue refining it over time as you learn more about the software and your needs. Our team is happy to chat about your project to help you make the most efficient plans.",
     },
   ];
 
@@ -561,7 +557,7 @@ const Landing = () => {
             <CTATextContainer>
               <CTATextHeader>Ready to try?</CTATextHeader>
               <CTAText>
-                Build business tools <CTAColor>in minutes</CTAColor>
+                Build custom dashboards <CTAColor>in minutes</CTAColor>
               </CTAText>
               <Row style={{ alignItems: "center", gap: "30px" }}>
                 <CTAButton

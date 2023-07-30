@@ -69,9 +69,9 @@ const FAQ = ({ data }) => {
               {expanded && (
                 <Text
                   style={{
-                    color: "#6b7b99",
-                    fontSize: "16px",
-                    margin: "5px 0 0 0",
+                    color: "#1d293d",
+                    fontSize: "18px",
+                    margin: "10px 0 0 0",
                     fontWeight: 300,
                   }}
                 >

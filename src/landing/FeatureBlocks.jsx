@@ -111,7 +111,7 @@ const blocks = [
   {
     reverse: false,
     url: "https://res.cloudinary.com/frontly/image/upload/h_500/v1679800949/spreadsheet-icons_eseqsz.png",
-    title: "Turn your spreadsheets into business apps",
+    title: "Turn spreadsheets into internal business tools",
     height: "280px",
     description:
       "Frontly turns your regular spreadsheet into a secure, self-serve client portal without the need for any coding or developers.",
@@ -128,7 +128,7 @@ const blocks = [
     description:
       "With our pre-built blocks such as Tables, Lists, Forms, and Charts, you can effortlessly create a client portal in just a few minutes without any code. All you have to do is pick a block, choose a spreadsheet, and you're ready to go!",
     benefits: [
-      "Build custom workflows",
+      "Fast, easy setup",
       "Create, update and delete records",
       "Drag and drop builder",
     ],
@@ -136,9 +136,9 @@ const blocks = [
   {
     reverse: false,
     url: "https://res.cloudinary.com/frontly/image/upload/h_500/v1678047162/access-control-graphic_n1zedy.png",
-    title: "Define custom permissions and access levels",
+    title: "Custom permissions and access levels",
     description:
-      "Ensure that only the appropriate users have access to view and modify specific information from your application with granular permissions. All data is securely stored in your spreadsheet.",
+      "Ensure that only certain users have access to view and modify specific data with granular permissions. All data is securely stored in your spreadsheet.",
     benefits: [
       "Email & password login for each user",
       "Role-based access permissions",
