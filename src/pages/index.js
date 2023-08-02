@@ -236,7 +236,7 @@ const CTAColor = styled.span`
 const CTAButton = styled.div`
   background: #21a1aa;
   color: white;
-  padding: 13px;
+  padding: 12px;
   font-weight: 500;
   font-size: 15px;
   width: fit-content;
