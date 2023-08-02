@@ -123,7 +123,7 @@ const blocks = [
   },
   {
     reverse: true,
-    url: "https://res.cloudinary.com/frontly/image/upload/h_500/v1678055979/blocks-graphic_vrgmop.png",
+    url: "https://oneatomic.com/frontly/BlocksGraphic.png",
     title: "Powerful building blocks with no code required",
     description:
       "With our pre-built blocks such as Tables, Lists, Forms, and Charts, you can effortlessly create a client portal in just a few minutes without any code. All you have to do is pick a block, choose a spreadsheet, and you're ready to go!",
