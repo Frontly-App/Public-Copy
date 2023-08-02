@@ -16,7 +16,7 @@ mixpanel.init("24b88f3ea98cee756872d3abb2d7da40", {
 mixpanel.track("Pricing Page View");
 
 const Button = styled.div`
-  background: ${colors.primary};
+  background: ${colors.secondary};
   padding: 12px;
   color: white;
   border-radius: 10px;
