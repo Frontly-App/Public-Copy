@@ -110,7 +110,7 @@ const BenefitText = styled.div`
 const blocks = [
   {
     reverse: false,
-    url: "https://res.cloudinary.com/frontly/image/upload/h_500/v1679800949/spreadsheet-icons_eseqsz.png",
+    url: "https://oneatomic.com/frontly/SheetsGraphic.png",
     title: "Turn spreadsheets into internal business tools",
     height: "280px",
     description:
