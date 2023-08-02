@@ -145,7 +145,7 @@ const HeroPlayButton = styled.div`
   align-items: center;
   transition: all 400ms;
   cursor: pointer;
-  border: 6px solid #d5e1f6;
+  border: 6px solid #21a1aa;
   &:hover {
     width: 66px;
     height: 66px;
