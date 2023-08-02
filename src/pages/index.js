@@ -345,7 +345,7 @@ const Landing = () => {
         <Logo
           alt="Frontly Logo"
           src={
-            "https://res.cloudinary.com/frontly/image/upload/v1686583732/admin/frontly_white_obpift.svg"
+            "https://oneatomic.com/frontly/frontly-logoslogan-white.svg"
           }
         />
       </HeaderLeft>
