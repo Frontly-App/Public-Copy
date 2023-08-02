@@ -234,7 +234,7 @@ const CTAColor = styled.span`
 `;
 
 const CTAButton = styled.div`
-  background: #cd3970;
+  background: #21a1aa;
   color: white;
   padding: 13px;
   font-weight: 500;
