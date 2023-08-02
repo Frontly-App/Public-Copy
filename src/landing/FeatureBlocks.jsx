@@ -51,7 +51,7 @@ const FeatureBlockImage = styled.img`
   object-fit: contain;
   height: 100%;
   width: 100%;
-  padding: 32px;
+  padding: 0px;
   @media (max-width: 1000px) {
     padding: 20px;
   }
