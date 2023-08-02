@@ -234,7 +234,7 @@ const CTAColor = styled.span`
 `;
 
 const CTAButton = styled.div`
-  background: #grad { background-image: linear-gradient (to the bottom right, red, yellow); };
+  background: #000000;
   color: white;
   padding: 12px;
   font-weight: 500;
