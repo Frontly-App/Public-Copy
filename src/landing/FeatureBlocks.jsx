@@ -38,7 +38,7 @@ const FeatureBlockContainer = styled.div`
 const FeatureBlockImageContainer = styled.div`
   height: ${(p) => p.height || "320px"};
   width: 430px;
-  background: #f3f5f7;
+  background: #ffffff;
   border-radius: 10px;
   @media (max-width: 1000px) {
     height: 200px;
