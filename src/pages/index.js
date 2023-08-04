@@ -394,7 +394,7 @@ const Landing = () => {
       <HeroContent>
         <HeroText>Build Apps & Dashboards in seconds with AI</HeroText>
         <HeroDescription>
-          Transform your Google Sheets with our AI powered No Code platform.
+          Transform your Google Sheets with our <br/>AI powered No Code platform.
         </HeroDescription>
         <HeroCTARow>
           <CTAButton
