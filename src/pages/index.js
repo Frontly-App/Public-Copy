@@ -203,7 +203,7 @@ const CTASection = styled.div`
 const CTATextHeader = styled.div`
   font-size: 25px;
   font-weight: 500;
-  color: #2f6ad0;
+  color: #1fa1a9;
   @media (max-width: 1000px) {
     font-size: 20px;
     text-align: center;
