@@ -557,7 +557,7 @@ const Landing = () => {
             <CTATextContainer>
               <CTATextHeader>Ready to try?</CTATextHeader>
               <CTAText>
-                Build custom dashboards <CTAColor>in minutes</CTAColor>
+                Build Apps <CTAColor>in seconds</CTAColor> w/ AI
               </CTAText>
               <Row style={{ alignItems: "center", gap: "30px" }}>
                 <CTAButton
