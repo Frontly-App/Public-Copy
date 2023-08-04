@@ -230,7 +230,7 @@ const CTAImage = styled.img`
 `;
 
 const CTAColor = styled.span`
-  color: #2f6ad0;
+  color: #577ad3;
 `;
 
 const CTAButton = styled.div`
