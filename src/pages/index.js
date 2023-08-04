@@ -392,10 +392,9 @@ const Landing = () => {
   const hero = (
     <HeroContainer>
       <HeroContent>
-        <HeroText>Supercharge your spreadsheets</HeroText>
+        <HeroText>Build Apps & Dashboards in seconds with AI</HeroText>
         <HeroDescription>
-          Turn your Google Sheets into custom analytics dashboards and internal
-          business tools using AI.
+          Transform your Google Sheets with our AI powered No Code platform.
         </HeroDescription>
         <HeroCTARow>
           <CTAButton
