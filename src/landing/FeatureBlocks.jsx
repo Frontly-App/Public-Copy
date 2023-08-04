@@ -111,7 +111,7 @@ const blocks = [
   {
     reverse: false,
     url: "https://oneatomic.com/frontly/SheetsGraphic.png",
-    title: "Turn spreadsheets into internal business tools",
+    title: "Supercharge your spreadsheets with Frontly",
     height: "280px",
     description:
       "Frontly turns your regular spreadsheet into a secure, self-serve client portal without the need for any coding or developers.",
