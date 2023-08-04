@@ -135,7 +135,7 @@ const blocks = [
   },
   {
     reverse: false,
-    url: "https://res.cloudinary.com/frontly/image/upload/h_500/v1678047162/access-control-graphic_n1zedy.png",
+    url: "https://oneatomic.com/frontly/AccessGraphic.png",
     title: "Custom permissions and access levels",
     description:
       "Ensure that only certain users have access to view and modify specific data with granular permissions. All data is securely stored in your spreadsheet.",
